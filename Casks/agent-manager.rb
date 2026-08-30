@@ -1,8 +1,8 @@
 cask "agent-manager" do
-  version "2.5.1"
-  sha256 "f738f5035c37511357b1ff74c33ec7e0e03abf6a1907f4e7b92426af2307aa85"
+  version "2.6.0"
+  sha256 "0157f68684c53c00c7dd01d02d7813851be55e007d1655c90e79e53f02beb8b6"
 
-  url "https://github.com/umechanhika/agent-manager-site/releases/download/v#{version}/AgentManager-#{version}.dmg"
+  url "https://github.com/umechanhika/agent-manager-site/releases/download/v#{version}/AgentManager-#{version}-homebrew.dmg"
   name "AgentManager"
   desc "Menu bar companion that shows which Claude Code sessions are waiting for you"
   homepage "https://umechanhika.github.io/agent-manager-site/"
