@@ -14,7 +14,7 @@ cask "agent-manager" do
 
   # Updates are delivered in-app by Sparkle; `brew upgrade` won't reinstall the same version.
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "AgentManager.app"
 
