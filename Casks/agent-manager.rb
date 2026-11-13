@@ -1,6 +1,6 @@
 cask "agent-manager" do
-  version "2.10.4"
-  sha256 "85f59f77eb11ccf1fc82cffa701b946e75498fe1005fa601ce28cdb144709482"
+  version "2.11.0"
+  sha256 "f54583d200baa7f4a43dbe164fb05af9672a0f6a67b2504c28816333d30a8585"
 
   url "https://github.com/umechanhika/agent-manager-site/releases/download/v#{version}/AgentManager-#{version}-homebrew.dmg"
   name "AgentManager"
